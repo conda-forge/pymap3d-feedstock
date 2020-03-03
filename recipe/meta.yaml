@@ -10,16 +10,16 @@ source:
   sha256: 93c0b63c5644fd23a54b53f14643ffe643f5cb5702f3d095b93ba3b9f51975b6
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
-  skip: True  # [py<35]
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - python-dateutil
     - numpy
 
