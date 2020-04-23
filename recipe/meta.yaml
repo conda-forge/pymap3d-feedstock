@@ -1,5 +1,5 @@
 {% set name = "pymap3d" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 93c0b63c5644fd23a54b53f14643ffe643f5cb5702f3d095b93ba3b9f51975b6
+  sha256: 1ec8592d2208f995cb960dba4c6b88d33fed23a2194f0c453848d63b61bb7365
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Pure Python 3-D geographic coordinate conversions and geodesy'
+  summary: Pure Python 3-D geographic coordinate conversions and geodesy
 
   # The remaining entries in this section are optional, but recommended.
   description: |
