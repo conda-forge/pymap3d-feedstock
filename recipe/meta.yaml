@@ -1,5 +1,5 @@
 {% set name = "pymap3d" %}
-{% set version = "2.4.0" %}
+{% set version = "2.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ee946ee2ca2c8952c99a891d6785d552288d0e7cb7a3ed6c8b6598b83d019f7f
+  sha256: 8044db4d101cf9672469bea82d6fe3c21a3fc8d536d12eb4cc9dc077090900ce
 
 build:
   noarch: python
