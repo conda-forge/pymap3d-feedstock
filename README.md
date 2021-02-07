@@ -5,9 +5,13 @@ Home: https://github.com/geospace-code/pymap3d
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymap3d-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pure Python 3-D geographic coordinate conversions and geodesy
+
+Development: https://github.com/geospace-code/pymap3d
+
+Documentation: https://geospace-code.github.io/pymap3d/
 
 Pure Python (no prerequistes beyond Python itself) 3-D geographic
 coordinate conversions and geodesy.
