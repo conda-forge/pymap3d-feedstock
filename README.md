@@ -1,11 +1,11 @@
-About pymap3d
-=============
+About pymap3d-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymap3d-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/geospace-code/pymap3d
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymap3d-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure Python 3-D geographic coordinate conversions and geodesy
 
